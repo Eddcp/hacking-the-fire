@@ -36,25 +36,25 @@
         <div class="col-xs-12 col-sm-2">
           <div class="form-group">
             <label for="inputPressure">Pressão:*</label>
-            <input readonly="readonly" type="text" class="form-control" id="inputPressure">
+            <input v-model="occurrence.patients[0].pressure" readonly="readonly" type="text" class="form-control" id="inputPressure">
           </div>
         </div>
         <div class="col-xs-12 col-sm-2">
           <div class="form-group">
             <label for="inputCardiacFrequency">Frequência Cardíaca:*</label>
-            <input readonly="readonly" type="text" class="form-control" id="inputCardiacFrequency">
+            <input v-model="occurrence.patients[0].cardiacFrequency" readonly="readonly" type="text" class="form-control" id="inputCardiacFrequency">
           </div>
         </div>
         <div class="col-xs-12 col-sm-2">
           <div class="form-group">
             <label for="inputO2Saturation">Saturação:*</label>
-            <input readonly="readonly" type="text" class="form-control" id="inputO2Saturation">
+            <input v-model="occurrence.patients[0].o2Saturation" readonly="readonly" type="text" class="form-control" id="inputO2Saturation">
           </div>
         </div>
         <div class="col-xs-12 col-sm-2">
           <div class="form-group">
             <label for="inputTemperature">Temperatura:*</label>
-            <input readonly="readonly" type="text" class="form-control" id="inputTemperature">
+            <input v-model="occurrence.patients[0].temperature" readonly="readonly" type="text" class="form-control" id="inputTemperature">
           </div>
         </div>
 
