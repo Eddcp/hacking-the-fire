@@ -4,7 +4,7 @@
 
 * Eduardo Costa Paiva - Frontend
 * Gabriel Augusto Marson - Mobile iOS Native
-* Mateus Henrique Alves da Cruz - Backend (git owner)
+* Mateus Henrique Alves da Cruz - Backend 
 * Thiago Fuzaro - Frontend
 
 ## Technologies Used
